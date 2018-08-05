@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="sb-admin-2/vendor/jquery/jquery.js"> </script>
+        <script>
+            $(document).ready(function(){
+                $("#change_text").click(function(){
+                alert("Yes!");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p id="para1"> Hello </p>
+        <button id="change_text">change</button>
+        <script type="text/javascript">
+            document.getElementById("para1").innerHTML= "Manipulated by JS";
+            console.log("this is a test");
+            for(x=0; x<10 ; x++) {
+            console.log(x);
+            }
+    </script>
+    </body>
+</html>
