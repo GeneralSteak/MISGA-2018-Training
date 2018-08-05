@@ -7,12 +7,11 @@ http://45.55.251.175/matrix2018/
 ### Bootstrap themes
 - https://adminlte.io
 - https://startbootstrap.com/template-overviews/sb-admin-2/
-- 
 
 ### Related links
 - w3scholls.com
 - jquery.com
-- 
+- Placeholder.com
 
 ### Notes
 - If you're using any templates move the following folders to a new structure (folder) for easy management  
