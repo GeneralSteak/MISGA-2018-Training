@@ -1,23 +1,21 @@
 <html>
     <head>
-        <script src="jquery-3.3.1.js"> </script>
+        <script src="jquery.js"></script>
         <script>
             $(document).ready(function(){
-                $("#change_text").click(function(){
-                alert("Yes!");
+                $("#changeText").click(function(){
+                    $("#para1").html("lol");
                 });
             });
         </script>
     </head>
     <body>
-        <p id="para1"> Hello </p>
-        <button id="change_text">change</button>
+        <p id="para1"> Hi Hello World</p>
+        <p id="para2"> Welcome</p>
+        <button id="changeText">Change</button>
         <script type="text/javascript">
-            document.getElementById("para1").innerHTML= "Manipulated by JS";
-            console.log("this is a test");
-            for(x=0; x<10 ; x++) {
-            console.log(x);
-            }
-    </script>
+            document.getElementById("para1").innerHTML = "Manipualted By JavaScript"; 
+            console.log("THIS IS A TEST");   
+        </script>
     </body>
 </html>
