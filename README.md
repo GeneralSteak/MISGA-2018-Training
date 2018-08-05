@@ -59,3 +59,5 @@ http://45.55.251.175/matrix2018/
     `git merge origin/master`
     * Pushes a local branch to the origin remote.
     `git push origin <branch_name>`
+    * To update the local database of remote branches. (After someone deletes a branch from a remote repository, git will not automatically delete the local repository branches when a user does a git pull or git fetch. However, if the user would like to have all tracking branches removed from their local repository that have been deleted in a remote repository)
+    `git fetch -p` or `git remote prune origin`
